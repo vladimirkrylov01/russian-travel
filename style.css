@@ -220,16 +220,17 @@
 	}
 }
 .intro__title {
-	margin: 0;
-	font-weight: 900;
-	font-size: 54px;
-	line-height: 1;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.09;
 }
+
 @media (min-width: 768px) {
-	.intro__title {
-		font-size: 54px;
-		line-height: 1.07;
-	}
+  .intro__title {
+    font-size: 54px;
+    line-height: 1.07;
+  }
 }
 .intro__text {
 	font-size: 16px;
