@@ -2,7 +2,6 @@
    gap: 12px;
 	margin: 0 auto;
 	display: grid;
-	gap: 12px;
 	padding: 78px 16px 0 16px;
 	grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
 	grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
