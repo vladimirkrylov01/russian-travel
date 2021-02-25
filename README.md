@@ -1,23 +1,26 @@
-# Проект 3: Путешествие по России
+<h1 align="center">Проект "Путешествие по России"</h1>
 
-### Обзор
-* Интро
-* Figma
-* Картинки
 
-**Интро**
+Использованы технологии:
+* Flexbox
+* Grid
+* Animation
+* Adaptive layout
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+Файловая структура по БЭМ.
 
-**Figma**
+Посмотреть как выглядит сайт можно по ссылке - https://vladimirkrylov01.github.io/russian-travel/
+-----------------------------------------------------------------
+<h1 align="center">The project "Russian travel"</h1>
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-**Картинки**
+Technologies used:
+* Flexbox
+* Grid
+* Animation
+* Adaptive layout
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+BEM file structure.
 
-Удачи!
+
+You can see how the site looks like following the link - https://vladimirkrylov01.github.io/russian-travel/
