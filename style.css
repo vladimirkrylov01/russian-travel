@@ -35,7 +35,6 @@
 		padding: 28px 24px 0 24px;
 	}
 }
-
 @media (min-width: 1024px) and (max-width: 1024px) {
 	.header {
 		padding: 28px 48px 0 48px;
@@ -45,11 +44,6 @@
 	height: 42px;
 	width: 142px;
 }
-.header__logo {
-	height: 42px;
-	width: 142px;
-}
-
 @media (min-width: 768px) and (max-width: 1024px) {
 	.header__logo {
 		height: 52px;

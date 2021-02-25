@@ -1,0 +1,9 @@
+.place__container_link {
+	font-size: 18px;
+	line-height: 1.2;
+	color: #fff;
+   transition: opacity .5s ease;
+}
+.place__container_link:hover{
+   opacity: .4;
+}

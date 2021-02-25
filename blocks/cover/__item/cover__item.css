@@ -1,0 +1,28 @@
+.cover__item {
+	width: 100%;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+}
+@media (min-width: 768px) {
+  .cover__item {
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__item {
+    min-height: 640px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__item {
+    min-height: 740px;
+  }
+}

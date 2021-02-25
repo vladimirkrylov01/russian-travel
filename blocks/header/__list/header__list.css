@@ -1,0 +1,6 @@
+.header__list {
+	font-size: 24px;
+}
+.header__list:last-child {
+	margin-left: 18px;
+}

@@ -1,0 +1,15 @@
+.place__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+@media (max-width:768px){
+   .place__container{
+      padding: 0px 16px 0px 16px;
+   }
+}
+@media (max-width:425px){
+   .place__container{
+      padding: 0px 16px 0px 16px;
+   }
+}

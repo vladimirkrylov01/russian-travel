@@ -1,0 +1,17 @@
+.footer__text {
+	font-weight: 400;
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+   line-height: 1;
+   transition: opacity .5s ease;
+}
+.footer__text:hover{
+   opacity: .4;
+}
+@media (min-width: 768px) {
+  .footer__text {
+    font-size: 16px;
+    line-height: 1.12;
+  }
+}

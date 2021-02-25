@@ -1,0 +1,15 @@
+.lead__figure {
+	margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+	.lead__figure {
+      max-width: 928px;
+		padding: 0px 48px 0px 48px;
+	}
+}
+@media (min-width:1280px){
+   .lead__figure{
+      min-width:984px;
+   }
+}

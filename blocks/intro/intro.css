@@ -1,0 +1,25 @@
+.intro {
+	color: #fff;
+	min-width: 288px;
+	max-width: 984px;
+	margin: 0 auto;
+	padding: 64px 16px 0 16px;
+	box-sizing: border-box;
+}
+@media (min-width: 768px) {
+	.intro {
+		padding: 92px 24px 0 24px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.intro {
+		padding: 96px 24px 0 28px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.intro {
+		padding-left: 0;
+	}
+}

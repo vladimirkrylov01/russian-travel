@@ -15,7 +15,6 @@
 		<!-- указывает автора сайта  -->
 		<meta name="author" content="Владимир Крылов" />
 		<!-- подключаем style.css (NO-BEM) -->
-		<link rel="stylesheet" href="./style.css" />
 		<!-- подключаем index.css / import / ( BEM! )-->
 		<link rel="stylesheet" href="./pages/index.css" />
 		<title>Путешествия по России</title>
@@ -28,8 +27,8 @@
 				<a href=""
 					><img
 						class="header__logo"
-						src="./sprint-3-images/header-logo.svg"
-						alt=""
+                  src="./blocks/header/__logo.png"
+						alt="логотип России"
 				/></a>
 				<ul class="header__lang-links">
 					<li class="header__list">
@@ -50,8 +49,8 @@
 					</p>
 					<figure class="lead__figure">
 						<img
-							src="./sprint-3-images/lead__image.jpg"
-							alt=""
+                     src="./blocks/lead/lead__image.jpg"
+							alt="вагон с маршрутом"
 							class="lead__image"
 						/>
 						<figcaption class="lead__caption">ваша полка — верхняя</figcaption>
@@ -94,63 +93,63 @@
 				<section class="photo-grid">
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-train.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-train.jpg"
+						alt="вид из окна поезда"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-atharva-tulsi.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-atharva-tulsi.jpg"
+						alt="вид на облака и горы"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-tuman.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-tuman.jpg"
+						alt="поле в тумане"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-sochi.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-sochi.jpg"
+						alt="вид на туманный лес"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-arisa.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-arisa.jpg"
+						alt="колесо машины на озере Байкал"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-baikal.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-baikal.jpg"
+						alt="Озеро Байкал"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-elbrus.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-elbrus.jpg"
+						alt="Эльбрус"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-kondratiev.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-kondratiev.jpg"
+						alt="белые полярные мишки"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-kamchatka-1.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-kamchatka-1.jpg"
+						alt="Камчатка"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-kamchatka-2.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-kamchatka-2.jpg"
+						alt="Камчатка-2"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-baikal-2.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-baikal-2.jpg"
+						alt="вид на берег Байкала"
 					/>
 					<img
 						class="photo-grid__item"
-						src="./sprint-3-images/photo-grid-ergaki.jpg"
-						alt=""
+						src="./blocks/photo-grid/photo-grid-ergaki.jpg"
+						alt="горы в тумане"
 					/>
 				</section>
 				<section class="places">
@@ -158,11 +157,11 @@
 						<h2 class="place__title">Куршская коса</h2>
 						<div class="place__container">
 							<p class="place__container_url">url</p>
-							<a class="place__container_link" href="#">park-kosa.ru</a>
+							<a class="place__container_link" href="http://park-kosa.ru" target="_blank" rel="noopener">park-kosa.ru</a>
 						</div>
 						<img
-							src="./sprint-3-images/place-kosa.jpg"
-							alt=""
+							src="./blocks/place/place-kosa.jpg"
+							alt="Куршская коса"
 							class="place__img"
 						/>
 						<div class="place__text">
@@ -186,11 +185,11 @@
 						<h2 class="place__title">Кольский</h2>
 						<div class="place__container">
 							<span class="place__container_url">url</span>
-							<a class="place__container_link" href="#">National Geographic</a>
+							<a class="place__container_link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener">National Geographic</a>
 						</div>
 						<img
-							src="./sprint-3-images/place-kolsky.jpg"
-							alt=""
+							src="./blocks/place/place-kolsky.jpg"
+							alt="Кольский полуостров"
 							class="place__img"
 						/>
 						<div class="place__text">
@@ -214,11 +213,11 @@
 						<h2 class="place__title">Алтай</h2>
 						<div class="place__container">
 							<span class="place__container_url">url</span>
-							<a class="place__container_link" href="#">Facebook</a>
+							<a class="place__container_link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" rel="noopener">Facebook</a>
 						</div>
 						<img
-							src="./sprint-3-images/place-altai.jpg"
-							alt=""
+							src="./blocks/place/place-altai.jpg"
+							alt="Алтай"
 							class="place__img"
 						/>
 						<div class="place__text">
@@ -242,13 +241,13 @@
 						<h2 class="place__title">Зимний Байкал</h2>
 						<div class="place__container">
 							<span class="place__container_url">url</span>
-							<a class="place__container_link" href="#"
+							<a class="place__container_link" href="https://vk.com/baikalmile" target="_blank" rel="noopener"
 								>https://vk.com/baikalmile</a
 							>
 						</div>
 						<img
-							src="./sprint-3-images/place-winter-baikal.jpg"
-							alt=""
+							src="./blocks/place/place-winter-baikal.jpg"
+							alt="Зимний Байкал"
 							class="place__img"
 						/>
 						<div class="place__text">
@@ -271,11 +270,11 @@
 						<h2 class="place__title">Карелия</h2>
 						<div class="place__container">
 							<span class="place__container_url">url</span>
-							<a class="place__container_link" href="#">http://vodlozero.ru/</a>
+							<a class="place__container_link" href="http://vodlozero.ru" target="_blank" rel="noopener">http://vodlozero.ru/</a>
 						</div>
 						<img
-							src="./sprint-3-images/place-karelia.jpg"
-							alt=""
+							src="./blocks/place/place-karelia.jpg"
+							alt="Карелия"
 							class="place__img"
 						/>
 						<div class="place__text">
@@ -296,6 +295,8 @@
 				<section class="cover">
 					<a
 						href="https://stampsy.com/na-elektrichkakh-do-baikala"
+                  target="_blank"
+                rel="noopener"
 						class="cover__item"
 					>
 						<h2 class="cover__title">До Байкала «на собаках»</h2>
@@ -311,23 +312,28 @@
 				<nav>
 					<ul class="footer__links">
 						<li class="footer__link">
-							<a class="footer__text" href="">Карты</a>
+							<a class="footer__text" href="https://yandex.ru/maps" target="_blank"
+                rel="noopener">Карты</a>
 						</li>
 						<li class="footer__link">
-							<a class="footer__text" href="">Погода</a>
+							<a class="footer__text" href="https://yandex.ru/pogoda" target="_blank"
+                rel="noopener">Погода</a>
 						</li>
 						<li class="footer__link">
-							<a class="footer__text" href="">Расписание</a>
+							<a class="footer__text" href="https://rasp.yandex.ru" target="_blank"
+                rel="noopener">Расписание</a>
 						</li>
 						<li class="footer__link">
-							<a class="footer__text" href="">Календарь</a>
+							<a class="footer__text" href="https://calendar.yandex.ru" target="_blank"
+                rel="noopener">Календарь</a>
 						</li>
 						<li class="footer__link">
-							<a class="footer__text" href="">Путешествия</a>
+							<a class="footer__text" href="https://travel.yandex.ru" target="_blank"
+                rel="noopener">Путешествия</a>
 						</li>
 					</ul>
-				</nav>
-				<p class="footer__copyright">&copy; 2021. Крылов Владимир</p>
+				</nav><a class="footer__copyright" href="https://github.com/vladimirkrylov01" target="_blank"
+                rel="noopener">&copy;  2021. Крылов Владимир</a>
 			</footer>
 		</div>
 	</body>
