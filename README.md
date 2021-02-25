@@ -10,6 +10,7 @@
 Файловая структура по БЭМ.
 
 Посмотреть как выглядит сайт можно по ссылке - https://vladimirkrylov01.github.io/russian-travel/
+
 -----------------------------------------------------------------
 <h1 align="center">The project "Russian travel"</h1>
 
