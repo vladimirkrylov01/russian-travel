@@ -5,6 +5,7 @@
 	line-height: 1.14;
 	font-weight: 400;
 	margin: 0;
+   margin-top: 16px;
 }
 @media (min-width: 768px) {
   .cover__subtitle {

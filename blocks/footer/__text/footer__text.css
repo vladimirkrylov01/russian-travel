@@ -7,7 +7,7 @@
    transition: opacity .5s ease;
 }
 .footer__text:hover{
-   opacity: .4;
+   opacity: .8;
 }
 @media (min-width: 768px) {
   .footer__text {
