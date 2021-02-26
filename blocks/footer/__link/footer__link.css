@@ -1,8 +1,12 @@
 .footer__link {
-	margin-bottom: 32px;
 }
 .footer__link:last-of-type{
    margin-bottom: 0;
+}
+@media (min-width: 425px){
+   .footer__link{
+      margin-bottom: 32px;
+   }
 }
 @media (min-width: 768px) {
 	.footer__link {
