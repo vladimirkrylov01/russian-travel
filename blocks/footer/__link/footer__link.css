@@ -8,6 +8,11 @@
       margin-bottom: 32px;
    }
 }
+@media (max-width: 425px){
+   .footer__link{
+      margin-bottom: 32px;
+   }
+}
 @media (min-width: 768px) {
 	.footer__link {
 		margin-bottom: 0;
