@@ -5,11 +5,6 @@
    max-width: 1184px;
 	padding: 0 16px;
 }
-@media (min-width: 425px){
-   .footer{
-      margin-left: 16px;
-   }
-}
 @media (min-width: 768px) {
 	.footer {
       flex-direction: row;
