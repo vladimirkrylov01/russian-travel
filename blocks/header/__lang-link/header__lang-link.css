@@ -4,8 +4,7 @@
 	color: #fff;
 	line-height: 28px;
 }
-.header__lang-link:focus,
-.header__lang-link:hover {
+.header__lang-link:focus{
 	border-bottom: 2px solid #fff;
 }
 .header__lang-link:hover {
