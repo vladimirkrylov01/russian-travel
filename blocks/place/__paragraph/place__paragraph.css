@@ -3,15 +3,12 @@
 	font-size: 16px;
 	line-height: 1.63;
 	margin: 0;
+   margin-bottom: 25px;
 }
-.place__paragraph:first-child {
-	margin-bottom: 26px;
+.place__paragraph:last-child {
+   margin-bottom: 0;
 }
-@media (max-width:768px){
-   .place__paragraph{
-      padding: 0px 16px;
-   }
-}
+
 @media (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;

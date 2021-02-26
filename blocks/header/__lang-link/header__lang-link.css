@@ -9,11 +9,16 @@
 	border-bottom: 2px solid #fff;
 }
 .header__lang-link:hover {
-	opacity: 0.55;
+	opacity: 0.8;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 	.header__lang-link {
 		font-size: 24px;
 		line-height: 1.17;
 	}
+}
+@media (max-width:425px){
+   .header__lang-link{
+       font-size: 18px;
+   }
 }

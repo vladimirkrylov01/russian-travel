@@ -1,11 +1,11 @@
 .lead__figure {
-	margin: 0 auto;
+   margin: 0;
 }
 
 @media (min-width: 1024px) {
 	.lead__figure {
+      margin: 0 auto;
       max-width: 928px;
-		padding: 0px 48px 0px 48px;
 	}
 }
 @media (min-width:1280px){
