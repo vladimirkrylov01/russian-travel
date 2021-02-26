@@ -5,7 +5,7 @@
 }
 @media (max-width: 768px) {
 	.place__container {
-		justify-content: flex-end;
+      padding-left: 16px;
 	}
 }
 @media (max-width: 425px) {
