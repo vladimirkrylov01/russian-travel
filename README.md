@@ -5,7 +5,7 @@
 Использованы технологии:
 * Flexbox
 * Grid
-* Animation
+* Media-queries
 * Adaptive layout
 
 Файловая структура по БЭМ.
@@ -19,7 +19,7 @@
 Technologies used:
 * Flexbox
 * Grid
-* Animation
+* Media-queries
 * Adaptive layout
 
 BEM file structure.
