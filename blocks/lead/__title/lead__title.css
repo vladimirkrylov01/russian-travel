@@ -10,6 +10,7 @@
 }
 @media (min-width: 768px) {
 	.lead__title {
+      font-size: 96px;
       line-height: 1.04;
 	}
 }
