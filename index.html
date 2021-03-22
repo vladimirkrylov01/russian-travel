@@ -22,28 +22,32 @@
 	<body class="body">
 		<!-- обёртка сайта -->
 		<div class="page">
+<!--			Модальное окно     -->
+			<div class="popup">
+				<div class="popup__overlay">
+					<div class="popup__content">
+						<div class="popup__close-button">+</div>
+						<h1 class="popup__title"></h1>
+						<p class="popup__text"></p>
+					</div>
+				</div>
+			</div>
 			<!-- заголовок -->
 			<header class="header">
-				<a href="./index.html" target="_blank" rel="noopener"
-					><img
-						class="header__logo"
-						src="./blocks/header/__logo.svg"
-						alt="логотип России"
-				/></a>
+				<a href="./index.html" target="_blank" rel="noopener">
+					<img class="header__logo" src="./blocks/header/__logo.svg"
+						alt="логотип России"/>
+				</a>
 				<ul class="header__lang-links">
 					<li class="header__list">
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener"
-							class="header__lang-link header__lang-link_selected"
-							>Ru</a
-						>
+						<a href="#" id="open_popup_btn"
+							class="header__lang-link header__lang-link_about" >О проекте</a>
 					</li>
 					<li class="header__list">
-						<a href="#" target="_blank" rel="noopener" class="header__lang-link"
-							>En</a
-						>
+						<a href="#" class="header__lang-link header__lang-link_selected" >Ru</a>
+					</li>
+					<li class="header__list">
+						<a href="#" class="header__lang-link">En</a>
 					</li>
 				</ul>
 			</header>
@@ -403,5 +407,6 @@
 				>
 			</footer>
 		</div>
+		<script src="./scripts/index.js"></script>
 	</body>
 </html>
