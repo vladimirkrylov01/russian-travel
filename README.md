@@ -1,28 +1,14 @@
 <h1 align="center">Проект "Путешествие по России"</h1>
+<h3 align="center">Яндекс Практикум</h3>
 
-Проект, направленный на практику медиа-запросов и гридов.
-
-Использованы технологии:
-* Flexbox
-* Grid
-* Media-queries
-* Adaptive layout
 
 Файловая структура по БЭМ.
 
-Посмотреть как выглядит сайт можно по ссылке - https://vladimirkrylov01.github.io/russian-travel/
-
------------------------------------------------------------------
-<h1 align="center">The project "Russian travel"</h1>
-
-
-Technologies used:
+Использованы технологии:
 * Flexbox
-* Grid
-* Media-queries
-* Adaptive layout
-
-BEM file structure.
+* Grid Layout
+* Адаптивная вёрстка, с использованием медиазапросов на разрешениях экрана : 1024px,768px,320px
+* Desktop First
 
 
-You can see how the site looks like following the link - https://vladimirkrylov01.github.io/russian-travel/
+Посмотреть как выглядит сайт можно по <a target="_blank" href="https://vladimirkrylov01.github.io/russian-travel/">ссылке</a>
